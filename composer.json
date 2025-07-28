@@ -1,0 +1,22 @@
+{
+    "name": "nexophp/install",
+    "type": "library",
+    "description": "",
+    "keywords": [
+        "php"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "sunkangchina",
+            "email": "68103403@qq.com"
+        }
+    ],
+    "require": { 
+    },
+    "autoload": {  
+        "psr-4": {
+            "modules\\install\\": "./"
+        }
+    }
+}

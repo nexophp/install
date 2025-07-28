@@ -25,6 +25,7 @@ class SiteController extends \core\AppController
             header('Location: /');
             exit;
         }
+        require __DIR__.'/../view/site/index.php';
     }
     
     /**
